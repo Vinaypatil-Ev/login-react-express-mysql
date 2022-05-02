@@ -1,0 +1,42 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Login page",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"node ./server/index.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "keywords": [
+    "login",
+    "page"
+  ],
+  "author": "vinay patil",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "clsx": "^1.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "postcss-normalize": "^10.0.1",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.3.1",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
